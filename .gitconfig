@@ -1,0 +1,60 @@
+[user]
+  name = CJ
+  email = lim@chernjie.com
+
+[github]
+  user = chernjie
+  token = <redacted>
+
+[core]
+  excludesfile = ~/.gitignore_global
+  eol = lf
+  autocrlf = false
+
+[color]
+  diff=auto
+  status=auto
+  branch=auto
+  interactive=auto
+  ui=true
+  pager=true
+
+[push]
+  default = simple
+
+[bash]
+  showupstream = verbose
+
+[diff]
+  noprefix = true
+  submodule = log
+
+[grep]
+  lineNumber = true
+
+[merge]
+  log = true
+
+[alias]
+  lg = log --graph --oneline --decorate
+  cp = cherry-pick
+  st = status
+  co = checkout
+  ls = ls-files
+  lsg = !"git ls-files | grep"
+  dls = diff --name-only
+  ack = grep --heading --break
+  praise = blame
+
+[rebase]
+  autoStash = true
+  autoSquash = true
+  stat = true
+
+[url "github:"]
+   pushInsteadOf = git://github.com/
+   pushInsteadOf = git://www.github.com/
+   pushInsteadOf = gh:
+
+[url "git://github.com/"]
+   insteadOf = gh:
