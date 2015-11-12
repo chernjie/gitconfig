@@ -1,60 +1,60 @@
 [user]
-  name = CJ
-  email = lim@chernjie.com
+	name = Your Name
+	email = Your Email
 
 [github]
-  user = chernjie
-  token = <redacted>
+	user = username
+	token = <redacted>
 
 [core]
-  excludesfile = ~/.gitignore_global
-  eol = lf
-  autocrlf = false
+	excludesfile = ~/.gitignore_global
+	eol = lf
+	autocrlf = false
 
 [color]
-  diff=auto
-  status=auto
-  branch=auto
-  interactive=auto
-  ui=true
-  pager=true
+	diff=auto
+	status=auto
+	branch=auto
+	interactive=auto
+	ui=true
+	pager=true
 
 [push]
-  default = simple
+	default = simple
 
 [bash]
-  showupstream = verbose
+	showupstream = verbose
 
 [diff]
-  noprefix = true
-  submodule = log
+	noprefix = true
+	submodule = log
 
 [grep]
-  lineNumber = true
+	lineNumber = true
 
 [merge]
-  log = true
+	log = true
 
 [alias]
-  lg = log --graph --oneline --decorate
-  cp = cherry-pick
-  st = status
-  co = checkout
-  ls = ls-files
-  lsg = !"git ls-files | grep"
-  dls = diff --name-only
-  ack = grep --heading --break
-  praise = blame
+	lg = log --graph --oneline --decorate
+	cp = cherry-pick
+	st = status
+	co = checkout
+	ls = ls-files
+	lsg = !"git ls-files | grep"
+	dls = diff --name-only
+	ack = grep --heading --break
+	praise = blame
 
 [rebase]
-  autoStash = true
-  autoSquash = true
-  stat = true
+	autoStash = true
+	autoSquash = true
+	stat = true
 
 [url "github:"]
-   pushInsteadOf = git://github.com/
-   pushInsteadOf = git://www.github.com/
-   pushInsteadOf = gh:
+	pushInsteadOf = git://github.com/
+	pushInsteadOf = git://www.github.com/
+	pushInsteadOf = gh:
 
 [url "git://github.com/"]
-   insteadOf = gh:
+	insteadOf = gh:
