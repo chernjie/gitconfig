@@ -12,12 +12,7 @@
 	autocrlf = false
 
 [color]
-	diff=auto
-	status=auto
-	branch=auto
-	interactive=auto
 	ui=true
-	pager=true
 
 [push]
 	default = simple
@@ -52,9 +47,9 @@
 	stat = true
 
 [url "github:"]
-	pushInsteadOf = git://github.com/
-	pushInsteadOf = git://www.github.com/
-	pushInsteadOf = gh:
+#	pushInsteadOf = git://github.com/
+#	pushInsteadOf = git://www.github.com/
+#	pushInsteadOf = gh:
 
 [url "git://github.com/"]
-	insteadOf = gh:
+#	insteadOf = gh:
